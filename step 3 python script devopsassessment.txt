@@ -1,0 +1,2 @@
+word = "devopsassessment"
+print('Number of letters in the word devopsassessmemt is:',len(word))

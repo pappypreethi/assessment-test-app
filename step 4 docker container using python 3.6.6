@@ -1,0 +1,14 @@
+FROM python:3.6
+
+ADD test.py /
+
+RUN pip install pystrich
+
+CMD [ "python", "./test.py" ]
+
+
+RUN the docker container::
+  
+ docker build image
+  
+ docker run -it preeti

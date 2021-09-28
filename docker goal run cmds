@@ -1,0 +1,2 @@
+docker build -t my_image .
+docker run -itd -p 80:80 my_image

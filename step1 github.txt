@@ -1,0 +1,4 @@
+1) go to github account 
+2) create the repositary with the name of assessment-test-app
+3) copy the link of https 
+4) git clone "https://github.com/pappypreethi/assessment-test-app.git"

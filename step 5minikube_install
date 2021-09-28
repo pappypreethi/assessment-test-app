@@ -1,0 +1,14 @@
+curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+sudo install minikube-linux-amd64 /usr/local/bin/minikube
+minikube start
+
+
+
+#If you already have kubectl installed, you can now use it to access your shiny new cluster:
+
+kubectl get po -A
+
+#Alternatively, minikube can download the appropriate version of kubectl and you should be able to use it like this:
+
+minikube kubectl -- get po -A
+
